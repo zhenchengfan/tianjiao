@@ -48,12 +48,6 @@ public class BaseController{
 		return new ModelAndView("form_webuploader");
 	}
 
-	@RequestMapping("/bannerManagerAdd.html")
-	public ModelAndView bannerManagerAdd(HttpServletRequest req,BannerTable bm){
-		
-		return null;
-	}
-	
 	@RequestMapping("/bannerTable.html")
 	public ModelAndView bannerTable(){
 		return new ModelAndView("bannerTable");
