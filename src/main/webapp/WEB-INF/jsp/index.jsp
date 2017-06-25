@@ -59,6 +59,10 @@
                                 <a class="J_menuItem" href="/teacherManager.html"  data-index="0">员工信息</a>
 
                     </li>
+                     <li>
+                                <a class="J_menuItem" href="/teacherTable.html"  data-index="0">员工信息</a>
+
+                    </li>
                 </ul>
             </div>
         </nav>

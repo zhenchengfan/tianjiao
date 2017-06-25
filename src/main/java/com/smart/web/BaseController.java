@@ -52,12 +52,12 @@ public class BaseController{
 	public ModelAndView bannerTable(){
 		return new ModelAndView("bannerTable");
 	}
-	@ResponseBody
-	@RequestMapping("/teacherQuery.html")
-	public String teacherTable(Yuangongxinxi ygxx){
-		List<Yuangongxinxi> ygxxList = teacherServer.queryAllTeacher(ygxx);
-		return JsonUtil.objectToJson(ygxxList);
-	}
+//	@ResponseBody
+//	@RequestMapping("/teacherQuery.html")
+//	public String teacherTable(Yuangongxinxi ygxx){
+//		List<Yuangongxinxi> ygxxList = teacherServer.queryAllTeacher(ygxx);
+//		return JsonUtil.objectToJson(ygxxList);
+//	}
 	
 	@RequestMapping(value = "/uploadFiles", method = RequestMethod.POST)
 	  @ResponseBody
